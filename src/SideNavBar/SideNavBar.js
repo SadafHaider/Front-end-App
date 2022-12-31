@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./SideNavBar.css";
 import Footer from "./footer";
 const SideNavBar = () => {
