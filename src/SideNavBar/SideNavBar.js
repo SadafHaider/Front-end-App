@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./SideNavBar.css";
 import Footer from "./footer";
 const SideNavBar = () => {
-	const [isExpanded, setExpendState] = useState(false);
+	
 	const menuItems = [
 		{
 			text: "Matching Markers",
@@ -32,14 +32,10 @@ const SideNavBar = () => {
 			<div className="nav-upper">
 				<div className="nav-heading">
 						<div className="nav-brand">
-							<img src="icons/Logo.svg" alt="" srcset="" />
+							
 							<h3>DUST Analysis</h3>
 						</div>
-					<button
-						className="hamburger"
-					>
-						
-					</button>
+
 				</div>
 				<div className="nav-menu">
 					{menuItems.map(({ text, icon }) => (
