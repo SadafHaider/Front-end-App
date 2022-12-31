@@ -5,9 +5,7 @@ const Footer = () => {
   const year = today.getFullYear();
   return (
     <footer>
-      
         <small>© 2018- {year} DUST Industry Inc. All Rights Reserved. Terms & Conditions | Privacy Policy</small>
-      
     </footer>
   );
 };
