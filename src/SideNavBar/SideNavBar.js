@@ -27,7 +27,7 @@ const SideNavBar = () => {
 	];
 	return (
         <div className="bck">
-        <img className=""  alt="" srcset=""/>
+        
 		<div className="side-nav-container">
 			<div className="nav-upper">
 				<div className="nav-heading">
